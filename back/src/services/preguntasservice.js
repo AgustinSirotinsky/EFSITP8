@@ -14,5 +14,20 @@ getAll = async () => {
         console.log(error)
     }
     return returnArray;
-    }    
+    }   
+getById = async (id) => {
+    let returnEntity=null;
+    console.log('Estoy en PreguntaService.getById(id)');
+    try {
+        let pool=await sql.connect(config);
+        let result = await pool.request()
+            .input('pId', sql.Int, id)
+            .query('SELECT * FROM Preguntas WHERE IdPregunta = @pId');
+        returnEntity = result.recordsets[0];
+    }
+    catch (error){
+        console.log(error)
+    }
+    return returnEntity;
+} 
 }

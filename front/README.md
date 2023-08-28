@@ -1,70 +1,140 @@
-# Getting Started with Create React App
+Pregunta 1: ¿Cuál es una mejor opción para reducir el consumo de agua en el hogar?
+Respuesta 1: Ducharse
+Respuesta 2: Bañarse
+Respuesta Correcta: Ducharse
+Justificación: Ducharse generalmente consume menos agua que bañarse en una bañera. Un baño de inmersión puede requerir hasta tres veces más agua que una ducha rápida.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pregunta 2: ¿Qué tipo de bolsas es más amigable con el medio ambiente?
+Respuesta 1: Bolsas de plástico desechables
+Respuesta 2: Bolsas reutilizables
+Respuesta Correcta: Bolsas reutilizables
+Justificación: Las bolsas de plástico desechables contribuyen a la contaminación y la acumulación de residuos. Las bolsas reutilizables, en cambio, reducen la necesidad de plásticos de un solo uso.
 
-## Available Scripts
+Pregunta 3: ¿Cuál de las siguientes fuentes de energía es más limpia y sostenible?
+Respuesta 1: Carbón
+Respuesta 2: Energía solar
+Respuesta Correcta: Energía solar
+Justificación: El carbón es una fuente de energía altamente contaminante, mientras que la energía solar es renovable, no produce emisiones de gases de efecto invernadero y tiene un menor impacto ambiental.
 
-In the project directory, you can run:
+Pregunta 4: ¿Qué método de transporte es más eficiente en términos de emisiones de carbono por persona?
+Respuesta 1: Automóvil con una persona
+Respuesta 2: Tren
+Respuesta Correcta: Tren
+Justificación: Los trenes pueden transportar a muchas personas a la vez, lo que reduce significativamente las emisiones de carbono por persona en comparación con los automóviles individuales.
 
-### `npm start`
+Pregunta 5: ¿Cuál es una mejor manera de reducir el consumo de papel?
+Respuesta 1: Imprimir documentos
+Respuesta 2: Leer documentos en línea
+Respuesta Correcta: Leer documentos en línea
+Justificación: Imprimir documentos contribuye a la deforestación y al consumo de recursos. Leer en línea reduce la demanda de papel y promueve la conservación de los bosques.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Pregunta 6: ¿Cuál es una opción más ecológica para eliminar residuos de cocina?
+Respuesta 1: Arrojarlos al inodoro
+Respuesta 2: Compostaje
+Respuesta Correcta: Compostaje
+Justificación: El compostaje convierte los residuos de cocina en abono natural, reduciendo la cantidad de residuos enviados a vertederos y disminuyendo la emisión de gases de efecto invernadero.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Pregunta 7: ¿Cuál de las siguientes prácticas ayuda a conservar el agua en el jardín?
+Respuesta 1: Riego diario
+Respuesta 2: Riego por goteo
+Respuesta Correcta: Riego por goteo
+Justificación: El riego por goteo proporciona agua directamente a las raíces de las plantas, reduciendo el desperdicio de agua en comparación con el riego diario.
 
-### `npm test`
+Pregunta 8: ¿Cuál de las siguientes actividades tiene un impacto negativo en los océanos?
+Respuesta 1: Utilizar productos de limpieza biodegradables
+Respuesta 2: Arrojar plásticos al mar
+Respuesta Correcta: Arrojar plásticos al mar
+Justificación: Arrojar plásticos al mar causa contaminación marina, pone en peligro la vida marina y contribuye a la formación de islas de basura.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Pregunta 9: ¿Cuál de las siguientes opciones es más eficiente en términos de consumo de energía en el hogar?
+Respuesta 1: Bombillas incandescentes
+Respuesta 2: Bombillas LED
+Respuesta Correcta: Bombillas LED
+Justificación: Las bombillas LED consumen significativamente menos energía que las incandescentes y tienen una vida útil más larga, lo que reduce la necesidad de reemplazo y el consumo de recursos.
 
-### `npm run build`
+Pregunta 10: ¿Qué tipo de alimentos tiene un menor impacto ambiental?
+Respuesta 1: Alimentos cultivados localmente
+Respuesta 2: Alimentos importados con frecuencia
+Respuesta Correcta: Alimentos cultivados localmente
+Justificación: Los alimentos locales requieren menos transporte, lo que reduce las emisiones de carbono asociadas. Además, apoyar a los agricultores locales promueve la sostenibilidad en la comunidad.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Pregunta 11: ¿Cuál de los siguientes tipos de empaque es más ecológico?
+Respuesta 1: Empaque de plástico
+Respuesta 2: Empaque de cartón
+Respuesta Correcta: Empaque de cartón
+Justificación: El cartón es biodegradable y más fácil de reciclar que el plástico, lo que reduce la cantidad de residuos y la dependencia de recursos no renovables.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Pregunta 12: ¿Qué acción contribuye más a la conservación del agua en el hogar?
+Respuesta 1: Dejar el grifo abierto mientras te cepillas los dientes
+Respuesta 2: Cerrar el grifo mientras te cepillas los dientes
+Respuesta Correcta: Cerrar el grifo mientras te cepillas los dientes
+Justificación: Dejar el grifo abierto innecesariamente mientras te cepillas los dientes desperdicia agua, mientras que cerrarlo ahorra agua.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Pregunta 13: ¿Cuál es una fuente de energía renovable?
+Respuesta 1: Petróleo
+Respuesta 2: Energía eólica
+Respuesta Correcta: Energía eólica
+Justificación: La energía eólica se genera a partir del viento y es una fuente de energía renovable, a diferencia del petróleo, que es una fuente agotable y altamente contaminante.
 
-### `npm run eject`
+Pregunta 14: ¿Qué práctica contribuye al agotamiento de la capa de ozono?
+Respuesta 1: Uso de productos sin aerosoles
+Respuesta 2: Uso de productos con CFCs
+Respuesta Correcta: Uso de productos con CFCs
+Justificación: Los clorofluorocarbonos (CFCs) liberados por productos como aerosoles y sistemas de refrigeración dañan la capa de ozono, lo que aumenta la radiación ultravioleta dañina.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Pregunta 15: ¿Cuál es una manera efectiva de reducir el consumo de energía en el hogar?
+Respuesta 1: Mantener las luces encendidas todo el tiempo
+Respuesta 2: Apagar las luces cuando no se necesitan
+Respuesta Correcta: Apagar las luces cuando no se necesitan
+Justificación: Mantener las luces encendidas innecesariamente consume energía. Apagarlas cuando no se utilizan reduce el consumo y el costo.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Pregunta 16: ¿Cuál es una consecuencia negativa de la deforestación?
+Respuesta 1: Aumento de la biodiversidad
+Respuesta 2: Pérdida de hábitats y especies
+Respuesta Correcta: Pérdida de hábitats y especies
+Justificación: La deforestación destruye los hábitats naturales, lo que conduce a la pérdida de biodiversidad y puede resultar en la extinción de especies.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Pregunta 17: ¿Cuál es una ventaja de la agricultura orgánica?
+Respuesta 1: Uso intensivo de pesticidas químicos
+Respuesta 2: Uso de métodos naturales para el control de plagas
+Respuesta Correcta: Uso de métodos naturales para el control de plagas
+Justificación: La agricultura orgánica evita el uso de pesticidas químicos, lo que reduce la contaminación y promueve la salud del suelo y los ecosistemas.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Pregunta 18: ¿Qué opción es más sostenible en términos de pesca marina?
+Respuesta 1: Pesca sin regulaciones
+Respuesta 2: Pesca con cuotas y regulaciones
+Respuesta Correcta: Pesca con cuotas y regulaciones
+Justificación: La pesca regulada ayuda a preservar las poblaciones de peces y mantiene el equilibrio en los ecosistemas marinos.
 
-## Learn More
+Pregunta 19: ¿Cuál de los siguientes combustibles fósiles es el más limpio en términos de emisiones?
+Respuesta 1: Carbón
+Respuesta 2: Gas natural
+Respuesta Correcta: Gas natural
+Justificación: Aunque no es una fuente de energía limpia, el gas natural emite menos CO2 y otros contaminantes que el carbón y el petróleo.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Pregunta 20: ¿Cuál es una forma efectiva de reducir la contaminación del aire en las ciudades?
+Respuesta 1: Aumentar el uso de automóviles individuales
+Respuesta 2: Mejorar el transporte público y promover la bicicleta
+Respuesta Correcta: Mejorar el transporte público y promover la bicicleta
+Justificación: Fomentar el uso del transporte público y la bicicleta reduce la congestión del tráfico y las emisiones de gases contaminantes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Pregunta 21: ¿Qué actividad humana es responsable del aumento en la concentración de dióxido de carbono en la atmósfera?
+Respuesta 1: Consumo de carne
+Respuesta 2: Quema de combustibles fósiles
+Respuesta Correcta: Quema de combustibles fósiles
+Justificación: La quema de combustibles fósiles como el petróleo y el carbón libera grandes cantidades de CO2 a la atmósfera, contribuyendo al calentamiento global.
 
-### Code Splitting
+Pregunta 22: ¿Cuál es una solución para reducir la generación de residuos electrónicos?
+Respuesta 1: Comprar dispositivos electrónicos nuevos regularmente
+Respuesta 2: Reparar y reciclar dispositivos electrónicos
+Respuesta Correcta: Reparar y reciclar dispositivos electrónicos
+Justificación: Reparar y reciclar dispositivos electrónicos prolonga su vida útil y evita la acumulación de residuos electrónicos.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Pregunta 23: ¿Qué es la huella de carbono?
+Respuesta 1: La marca que deja un objeto de carbono
+Respuesta 2: La cantidad de emisiones de carbono producidas por una actividad o persona
+Respuesta Correcta: La cantidad de emisiones de carbono producidas por una actividad o persona
+Justificación: La huella de carbono mide el impacto de las actividades humanas en términos de emisiones de gases de efecto invernadero.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Pregunta 24: ¿Qué tipo de agricultura es más amigable con el medio ambiente?
+Respuesta 1: Agricultura convencional con uso intensivo de pesticidas

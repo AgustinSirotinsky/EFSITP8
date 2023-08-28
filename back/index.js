@@ -27,6 +27,15 @@ app.get('/preguntas',async (req,res) =>{
     return res.status(200).json(PreguntasGetAll)
 })
 
+app.get('/preguntas/:id',async (req,res) =>{
+    const PreguntasGetById = await svcP.getById(req.params['id']);
+    if (PreguntasGetById.length == 0) {
+        return res.status(404).send('Pregunta inexistente')
+    } else {
+        return res.status(200).json(PreguntasGetById)
+    }
+})
+
 app.get('/respuestas',async (req,res) =>{
     const RespuestasGetAll = await svcR.getAll();
     return res.status(200).json(RespuestasGetAll) 
