@@ -1,9 +1,10 @@
 import config from '../../dbconfig-env.js';
 import sql from 'mssql'
-class PreguntasService {
+
+export default class PreguntasService {
 getAll = async () => {
     let returnArray = null;
-    console.log('Estoy en LocalService.getAll()');
+    console.log('Estoy en PreguntaService.getAll()');
     try {
         let pool = await sql.connect(config);
        let result = await pool.request().query("SELECT * FROM Preguntas");
@@ -15,4 +16,3 @@ getAll = async () => {
     return returnArray;
     }    
 }
-export default PreguntasService
