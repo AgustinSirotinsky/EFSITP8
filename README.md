@@ -138,3 +138,71 @@ Justificación: La huella de carbono mide el impacto de las actividades humanas 
 
 Pregunta 24: ¿Qué tipo de agricultura es más amigable con el medio ambiente?
 Respuesta 1: Agricultura convencional con uso intensivo de pesticidas
+Respuesta 2: Agricultura orgánica con métodos naturales
+Respuesta Correcta: Agricultura orgánica con métodos naturales
+Justificación: La agricultura orgánica evita el uso de pesticidas químicos, promoviendo la salud del suelo, la biodiversidad y la calidad de los alimentos.
+
+Pregunta 25: ¿Qué impacto tiene la sobrepesca en los ecosistemas marinos?
+Respuesta 1: Promueve el crecimiento de poblaciones de peces
+Respuesta 2: Desestabiliza los ecosistemas y agota las poblaciones de peces
+Respuesta Correcta: Desestabiliza los ecosistemas y agota las poblaciones de peces
+Justificación: La sobrepesca afecta el equilibrio de los ecosistemas marinos al reducir drásticamente las poblaciones de peces y otros organismos, lo que puede llevar a desequilibrios y colapsos.
+
+Pregunta 26: ¿Cuál es una manera de reducir la contaminación del suelo?
+Respuesta 1: Eliminar todas las plantas y árboles en un área
+Respuesta 2: Practicar la rotación de cultivos y evitar el uso excesivo de químicos
+Respuesta Correcta: Practicar la rotación de cultivos y evitar el uso excesivo de químicos
+Justificación: La rotación de cultivos y la agricultura sostenible mantienen la salud del suelo y reducen la contaminación por químicos.
+
+Pregunta 27: ¿Qué tipo de alimentos tiende a requerir más recursos para producir?
+Respuesta 1: Alimentos de origen vegetal
+Respuesta 2: Alimentos de origen animal
+Respuesta Correcta: Alimentos de origen animal
+Justificación: La producción de alimentos de origen animal, como carne y lácteos, generalmente requiere más agua, tierra y energía en comparación con los alimentos de origen vegetal.
+
+Pregunta 28: ¿Cuál es una consecuencia del calentamiento global en los ecosistemas acuáticos?
+Respuesta 1: Disminución del nivel del mar
+Respuesta 2: Acidificación de los océanos
+Respuesta Correcta: Acidificación de los océanos
+Justificación: El aumento de las emisiones de dióxido de carbono provoca la acidificación de los océanos, lo que afecta negativamente a la vida marina y a los ecosistemas costeros.
+
+Pregunta 29: ¿Cuál es una razón para proteger las áreas naturales como los bosques y las reservas naturales?
+Respuesta 1: Fomentar la urbanización y la expansión humana
+Respuesta 2: Conservar la biodiversidad y los ecosistemas únicos
+Respuesta Correcta: Conservar la biodiversidad y los ecosistemas únicos
+Justificación: Las áreas naturales albergan una gran variedad de especies y desempeñan un papel crucial en la regulación del clima y la salud del planeta.
+
+Pregunta 30: ¿Qué contribuye a la formación de lluvia ácida?
+Respuesta 1: Emisiones de gases de efecto invernadero
+Respuesta 2: Emisiones de dióxido de azufre y óxidos de nitrógeno
+Respuesta Correcta: Emisiones de dióxido de azufre y óxidos de nitrógeno
+Justificación: Las emisiones de dióxido de azufre y óxidos de nitrógeno provenientes de la quema de combustibles fósiles reaccionan con la atmósfera para formar ácidos que luego se precipitan como lluvia ácida.
+
+Pregunta 31: ¿Cuál es una forma de conservar el suelo y prevenir la erosión?
+Respuesta 1: Labrar el suelo en pendientes pronunciadas
+Respuesta 2: Plantar árboles y vegetación protectora
+Respuesta Correcta: Plantar árboles y vegetación protectora
+Justificación: Plantar árboles y vegetación en pendientes ayuda a retener el suelo, evitando la erosión causada por el viento y la lluvia.
+
+Pregunta 32: ¿Cuál es el efecto de los plásticos de un solo uso en el medio ambiente?
+Respuesta 1: Mejoran la calidad del agua
+Respuesta 2: Contribuyen a la contaminación y afectan la vida marina
+Respuesta Correcta: Contribuyen a la contaminación y afectan la vida marina
+Justificación: Los plásticos de un solo uso son una fuente importante de contaminación en océanos y cuerpos de agua, dañando la vida marina y acumulándose en los ecosistemas.
+
+Pregunta 33: ¿Qué es la desertificación?
+Respuesta 1: El proceso de transformar áreas desérticas en tierras fértiles
+Respuesta 2: La degradación de tierras productivas en zonas áridas y semiáridas
+Respuesta Correcta: La degradación de tierras productivas en zonas áridas y semiáridas
+Justificación: La desertificación es un proceso en el que la calidad del suelo disminuye en zonas secas, reduciendo su capacidad para sustentar la vida vegetal y animal.
+
+Pregunta 34: ¿Cuál es un beneficio de la energía nuclear en términos de emisiones de carbono?
+Respuesta 1: Genera altas cantidades de CO2
+Respuesta 2: Tiene bajas emisiones de CO2
+Respuesta Correcta: Tiene bajas emisiones de CO2
+Justificación: Aunque presenta desafíos en términos de residuos y seguridad, la energía nuclear tiene bajas emisiones de carbono durante la generación de electricidad.
+
+Pregunta 35: ¿Cuál es una forma de reducir la contaminación del agua en ríos y lagos?
+Respuesta 1: Verter productos químicos directamente en el agua
+Respuesta 2: Tratar y gestionar adecuadamente los desechos industriales y domésticos
+Respuesta Correcta: Tratar y gestionar adecuadamente los desechos industriales
