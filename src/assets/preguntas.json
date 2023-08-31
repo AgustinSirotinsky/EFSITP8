@@ -16,5 +16,68 @@
     },
     "respuesta_correcta": "2",
     "justificacion": "Las bolsas de plástico desechables contribuyen a la contaminación y la acumulación de residuos. Las bolsas reutilizables, en cambio, reducen la necesidad de plásticos de un solo uso."
+    },
+    {
+    "pregunta": "¿Cuál de las siguientes fuentes de energía es más limpia y sostenible?",
+    "respuestas": {
+        "1": "Carbón",
+        "2": "Energía solar"
+    },
+    "respuesta_correcta": "2",
+    "justificacion": "El carbón es una fuente de energía altamente contaminante, mientras que la energía solar es renovable, no produce emisiones de gases de efecto invernadero y tiene un menor impacto ambiental."
+    },
+    {
+    "pregunta": "¿Qué método de transporte es más eficiente en términos de emisiones de carbono por persona?",
+    "respuestas": {
+        "1": "Tren",
+        "2": "Automóvil con una persona"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "Los trenes pueden transportar a muchas personas a la vez, lo que reduce significativamente las emisiones de carbono por persona en comparación con los automóviles individuales."
+    },
+    {
+    "pregunta": "¿Cuál es una mejor manera de reducir el consumo de papel?",
+    "respuestas": {
+        "1": "Leer documentos en línea",
+        "2": "Imprimir documentos"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "Imprimir documentos contribuye a la deforestación y al consumo de recursos. Leer en línea reduce la demanda de papel y promueve la conservación de los bosques."
+    },
+    {
+    "pregunta": "¿Cuál es una opción más ecológica para eliminar residuos de cocina?",
+    "respuestas": {
+        "1": "Arrojarlos al inodoro",
+        "2": "Compostaje"
+    },
+    "respuesta_correcta": "2",
+    "justificacion": "El compostaje convierte los residuos de cocina en abono natural, reduciendo la cantidad de residuos enviados a vertederos y disminuyendo la emisión de gases de efecto invernadero."
+    },
+    {
+    "pregunta": "¿Cuál de las siguientes prácticas ayuda a conservar el agua en el jardín?",
+    "respuestas": {
+        "1": "Riego diario",
+        "2": "Riego por goteo"
+    },
+    "respuesta_correcta": "2",
+    "justificacion": "El riego por goteo proporciona agua directamente a las raíces de las plantas, reduciendo el desperdicio de agua en comparación con el riego diario."
+    },
+    {
+    "pregunta": "¿Cuál de las siguientes actividades tiene un impacto negativo en los océanos?",
+    "respuestas": {
+        "1": "Arrojar plásticos al mar",
+        "2": "Utilizar productos de limpieza biodegradables"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "Arrojar plásticos al mar causa contaminación marina, pone en peligro la vida marina y contribuye a la formación de islas de basura."
+    },
+    {
+    "pregunta": "¿Cuál de las siguientes opciones es más eficiente en términos de consumo de energía en el hogar?",
+    "respuestas": {
+        "1": "Bombillas incandescentes",
+        "2": "Bombillas LED"
+    },
+    "respuesta_correcta": "2",
+    "justificacion": "Las bombillas LED consumen significativamente menos energía que las incandescentes y tienen una vida útil más larga, lo que reduce la necesidad de reemplazo y el consumo de recursos."
     }
 ]
