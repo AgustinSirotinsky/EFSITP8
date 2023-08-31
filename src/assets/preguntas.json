@@ -79,5 +79,248 @@
     },
     "respuesta_correcta": "2",
     "justificacion": "Las bombillas LED consumen significativamente menos energía que las incandescentes y tienen una vida útil más larga, lo que reduce la necesidad de reemplazo y el consumo de recursos."
+    },
+    {
+    "pregunta": "¿Qué tipo de alimentos tiene un menor impacto ambiental?",
+    "respuestas": {
+        "1": "Alimentos cultivados localmente",
+        "2": "Alimentos importados con frecuencia"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "Los alimentos locales requieren menos transporte, lo que reduce las emisiones de carbono asociadas. Además, apoyar a los agricultores locales promueve la sostenibilidad en la comunidad."
+    },
+    {
+    "pregunta": "¿Cuál de los siguientes tipos de empaque es más ecológico?",
+    "respuestas": {
+        "1": "Empaque de cartón",
+        "2": "Empaque de plástico"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "El cartón es biodegradable y más fácil de reciclar que el plástico, lo que reduce la cantidad de residuos y la dependencia de recursos no renovables."
+    },
+    {
+    "pregunta": "¿Qué acción contribuye más a la conservación del agua en el hogar?",
+    "respuestas": {
+        "1": "Cerrar el grifo mientras te cepillas los dientes",
+        "2": "Dejar el grifo abierto mientras te cepillas los dientes"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "Dejar el grifo abierto innecesariamente mientras te cepillas los dientes desperdicia agua, mientras que cerrarlo ahorra agua."
+    },
+    {
+    "pregunta": "¿Cuál es una fuente de energía renovable?",
+    "respuestas": {
+        "1": "Petróleo",
+        "2": "Energía eólica"
+    },
+    "respuesta_correcta": "2",
+    "justificacion": "La energía eólica se genera a partir del viento y es una fuente de energía renovable, a diferencia del petróleo, que es una fuente agotable y altamente contaminante."
+    },
+    {
+    "pregunta": "¿Qué práctica contribuye al agotamiento de la capa de ozono?",
+    "respuestas": {
+        "1": "Uso de productos sin aerosoles",
+        "2": "Uso de productos con CFCs"
+    },
+    "respuesta_correcta": "2",
+    "justificacion": "Los clorofluorocarbonos (CFCs) liberados por productos como aerosoles y sistemas de refrigeración dañan la capa de ozono, lo que aumenta la radiación ultravioleta dañina."
+    },
+    {
+    "pregunta": "¿Cuál es una manera efectiva de reducir el consumo de energía en el hogar?",
+    "respuestas": {
+        "1": "Mantener las luces encendidas todo el tiempo",
+        "2": "Apagar las luces cuando no se necesitan"
+    },
+    "respuesta_correcta": "2",
+    "justificacion": "Mantener las luces encendidas innecesariamente consume energía. Apagarlas cuando no se utilizan reduce el consumo y el costo."
+    },
+    {
+    "pregunta": "¿Cuál es una consecuencia negativa de la deforestación?",
+    "respuestas": {
+        "1": "Aumento de la biodiversidad",
+        "2": "Pérdida de hábitats y especies"
+    },
+    "respuesta_correcta": "2",
+    "justificacion": "La deforestación destruye los hábitats naturales, lo que conduce a la pérdida de biodiversidad y puede resultar en la extinción de especies."
+    },
+    {
+    "pregunta": "¿Cuál es una ventaja de la agricultura orgánica?",
+    "respuestas": {
+        "1": "Uso intensivo de pesticidas químicos",
+        "2": "Uso de métodos naturales para el control de plagas"
+    },
+    "respuesta_correcta": "2",
+    "justificacion": "La agricultura orgánica evita el uso de pesticidas químicos, lo que reduce la contaminación y promueve la salud del suelo y los ecosistemas."
+    },
+    {
+    "pregunta": "¿Qué opción es más sostenible en términos de pesca marina?",
+    "respuestas": {
+        "1": "Pesca con cuotas y regulaciones",
+        "2": "Pesca sin regulaciones"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "La pesca regulada ayuda a preservar las poblaciones de peces y mantiene el equilibrio en los ecosistemas marinos."
+    },
+    {
+    "pregunta": "¿Cuál de los siguientes combustibles fósiles es el más limpio en términos de emisiones?",
+    "respuestas": {
+        "1": "Gas natural",
+        "2": "Carbón"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "Aunque no es una fuente de energía limpia, el gas natural emite menos CO2 y otros contaminantes que el carbón y el petróleo."
+    },
+    {
+    "pregunta": "¿Cuál es una forma efectiva de reducir la contaminación del aire en las ciudades?",
+    "respuestas": {
+        "1": "Mejorar el transporte público y promover la bicicleta",
+        "2": "Aumentar el uso de automóviles"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "Fomentar el uso del transporte público y la bicicleta reduce la congestión del tráfico y las emisiones de gases contaminantes."
+    },
+    {
+    "pregunta": "¿Cuál es una forma efectiva de reducir la contaminación del aire en las ciudades?",
+    "respuestas": {
+        "1": "Mejorar el transporte público y promover la bicicleta",
+        "2": "Aumentar el uso de automóviles"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "Fomentar el uso del transporte público y la bicicleta reduce la congestión del tráfico y las emisiones de gases contaminantes."
+    },
+    {
+    "pregunta": "¿Qué actividad humana es responsable del aumento en la concentración de dióxido de carbono en la atmósfera?",
+    "respuestas": {
+        "1": "Quema de combustibles fósiles",
+        "2": "Consumo de carne"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "La quema de combustibles fósiles como el petróleo y el carbón libera grandes cantidades de CO2 a la atmósfera, contribuyendo al calentamiento global."
+    },
+    {
+    "pregunta": "¿Cuál es una solución para reducir la generación de residuos electrónicos?",
+    "respuestas": {
+        "1": "Comprar dispositivos electrónicos nuevos regularmente",
+        "2": "Reparar y reciclar dispositivos electrónicos"
+    },
+    "respuesta_correcta": "2",
+    "justificacion": "Reparar y reciclar dispositivos electrónicos prolonga su vida útil y evita la acumulación de residuos electrónicos."
+    },
+    {
+    "pregunta": "¿Qué es la huella de carbono?",
+    "respuestas": {
+        "1": "La marca que deja un objeto de carbono",
+        "2": "La cantidad de emisiones de carbono producidas por una actividad o persona"
+    },
+    "respuesta_correcta": "2",
+    "justificacion": "La huella de carbono mide el impacto de las actividades humanas en términos de emisiones de gases de efecto invernadero."
+    },
+    {
+    "pregunta": "¿Qué tipo de agricultura es más amigable con el medio ambiente?",
+    "respuestas": {
+        "1": "Agricultura convencional con uso intensivo de pesticidas",
+        "2": "Agricultura orgánica con métodos naturales"
+    },
+    "respuesta_correcta": "2",
+    "justificacion": "La agricultura orgánica evita el uso de pesticidas químicos, promoviendo la salud del suelo, la biodiversidad y la calidad de los alimentos."
+    },
+    {
+    "pregunta": "¿Qué impacto tiene la sobrepesca en los ecosistemas marinos?",
+    "respuestas": {
+        "1": "Promueve el crecimiento de poblaciones de peces",
+        "2": "Desestabiliza los ecosistemas y agota las poblaciones de peces"
+    },
+    "respuesta_correcta": "2",
+    "justificacion": "La sobrepesca afecta el equilibrio de los ecosistemas marinos al reducir drásticamente las poblaciones de peces y otros organismos, lo que puede llevar a desequilibrios y colapsos."
+    },
+    {
+    "pregunta": "¿Cuál es una manera de reducir la contaminación del suelo?",
+    "respuestas": {
+        "1": "Practicar la rotación de cultivos y evitar el uso excesivo de químicos",
+        "2": "Eliminar todas las plantas y árboles en un área"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "La rotación de cultivos y la agricultura sostenible mantienen la salud del suelo y reducen la contaminación por químicos."
+    },
+    {
+    "pregunta": "¿Qué tipo de alimentos tiende a requerir más recursos para producir?",
+    "respuestas": {
+        "1": "Alimentos de origen animal",
+        "2": "Alimentos de origen vegetal"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "La producción de alimentos de origen animal, como carne y lácteos, generalmente requiere más agua, tierra y energía en comparación con los alimentos de origen vegetal."
+    },
+    {
+    "pregunta": "¿Cuál es una consecuencia del calentamiento global en los ecosistemas acuáticos?",
+    "respuestas": {
+        "1": "Acidificación de los océanos",
+        "2": "Disminución del nivel del mar"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "El aumento de las emisiones de dióxido de carbono provoca la acidificación de los océanos, lo que afecta negativamente a la vida marina y a los ecosistemas costeros."
+    },
+    {
+    "pregunta": "¿Cuál es una razón para proteger las áreas naturales como los bosques y las reservas naturales?",
+    "respuestas": {
+        "1": "Conservar la biodiversidad y los ecosistemas únicos",
+        "2": "Fomentar la urbanización y la expansión humana"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "Las áreas naturales albergan una gran variedad de especies y desempeñan un papel crucial en la regulación del clima y la salud del planeta."
+    },
+    {
+    "pregunta": "¿Qué contribuye a la formación de lluvia ácida?",
+    "respuestas": {
+        "1": "Emisiones de dióxido de azufre y óxidos de nitrógeno",
+        "2": "Emisiones de gases de efecto invernadero"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "Las emisiones de dióxido de azufre y óxidos de nitrógeno provenientes de la quema de combustibles fósiles reaccionan con la atmósfera para formar ácidos que luego se precipitan como lluvia ácida."
+    },
+    {
+    "pregunta": "¿Cuál es una forma de conservar el suelo y prevenir la erosión?",
+    "respuestas": {
+        "1": "Plantar árboles y vegetación protectora",
+        "2": "Labrar el suelo en pendientes pronunciadas"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "Plantar árboles y vegetación en pendientes ayuda a retener el suelo, evitando la erosión causada por el viento y la lluvia."
+    },
+    {
+    "pregunta": "¿Cuál es el efecto de los plásticos de un solo uso en el medio ambiente?",
+    "respuestas": {
+        "1": "Contribuyen a la contaminación y afectan la vida marina",
+        "2": "Mejoran la calidad del agua"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "Los plásticos de un solo uso son una fuente importante de contaminación en océanos y cuerpos de agua, dañando la vida marina y acumulándose en los ecosistemas."
+    },
+    {
+    "pregunta": "¿Qué es la desertificación?",
+    "respuestas": {
+        "1": "El proceso de transformar áreas desérticas en tierras fértiles",
+        "2": "La degradación de tierras productivas en zonas áridas y semiárida"
+    },
+    "respuesta_correcta": "2",
+    "justificacion": "La desertificación es un proceso en el que la calidad del suelo disminuye en zonas secas, reduciendo su capacidad para sustentar la vida vegetal y animal."
+    },
+    {
+    "pregunta": "¿Cuál es un beneficio de la energía nuclear en términos de emisiones de carbono?",
+    "respuestas": {
+        "1": "Genera altas cantidades de CO2",
+        "2": "Tiene bajas emisiones de CO2"
+    },
+    "respuesta_correcta": "2",
+    "justificacion": "Aunque presenta desafíos en términos de residuos y seguridad, la energía nuclear tiene bajas emisiones de carbono durante la generación de electricidad."
+    },
+    {
+    "pregunta": "¿Cuál es una forma de reducir la contaminación del agua en ríos y lagos?",
+    "respuestas": {
+        "1": "Verter productos químicos directamente en el agua",
+        "2": "Tratar y gestionar adecuadamente los desechos industriales y domésticos"
+    },
+    "respuesta_correcta": "2",
+    "justificacion": ""
     }
 ]
