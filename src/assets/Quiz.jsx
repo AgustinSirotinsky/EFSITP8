@@ -14,7 +14,7 @@ export default function Quiz(){
             console.log(res[x])
         })
         .catch(err => console.log(err));
-      }, []);
+    }, []);
     return (
         <h1>que</h1>
     )

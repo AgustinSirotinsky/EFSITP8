@@ -1,0 +1,20 @@
+[
+    {
+    "pregunta": "¿Cuál es una mejor opción para reducir el consumo de agua en el hogar?",
+    "respuestas": {
+        "1": "Ducharse",
+        "2": "Bañarse"
+    },
+    "respuesta_correcta": "1",
+    "justificacion": "Ducharse generalmente consume menos agua que bañarse en una bañera. Un baño de inmersión puede requerir hasta tres veces más agua que una ducha rápida."
+    },
+    {
+    "pregunta": "¿Qué tipo de bolsas es más amigable con el medio ambiente?",
+    "respuestas": {
+        "1": "Bolsas de plástico desechables",
+        "2": "Bolsas reutilizables"
+    },
+    "respuesta_correcta": "2",
+    "justificacion": "Las bolsas de plástico desechables contribuyen a la contaminación y la acumulación de residuos. Las bolsas reutilizables, en cambio, reducen la necesidad de plásticos de un solo uso."
+    }
+]
