@@ -5,13 +5,23 @@ function PreguntasComponent() {
 const [preguntaIndex, setPreguntaIndex] = useState(0);
 const [respuestaElegida, setRespuestaElegida] = useState(null);
 const [mostrarJustificacion, setMostrarJustificacion] = useState(false);
+const [avanzar, setAvanzar] = useState(false)
+const [reiniciar, setReiniciar] = useState(false)
+const [puntos, setPuntos] = useState(0);
 
 const preguntaActual = preguntas[preguntaIndex];
 const respuestas = preguntaActual.respuestas;
 
 const handleRespuestaClick = (opcion) => {
+    setAvanzar(false)
     setRespuestaElegida(opcion);
     setMostrarJustificacion(true);
+    if (preguntaActual.respuesta_correcta==opcion){
+        setAvanzar(true)
+    }
+    else {
+        setReiniciar(true)
+    }
 };
 
 const handleSiguientePregunta = () => {
@@ -40,10 +50,12 @@ return (
     {mostrarJustificacion && (
         <div>
         <p>
-            Respuesta correcta: {preguntaActual.respuesta_correcta}
+            Respuesta correcta: {preguntaActual.respuestas[preguntaActual.respuesta_correcta]}
         </p>
         <p>Justificación: {preguntaActual.justificacion}</p>
+        {avanzar && (
         <button onClick={handleSiguientePregunta}>Siguiente pregunta</button>
+        )}
         </div>
     )}
     </div>
