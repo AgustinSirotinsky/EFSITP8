@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
-import preguntas from './preguntas.json'
+import preguntas from '../preguntas.json'
+import { Link } from "react-router-dom";
+
 
 function PreguntasComponent() {
 const [preguntaIndex, setPreguntaIndex] = useState(0);
 const [respuestaElegida, setRespuestaElegida] = useState(null);
 const [mostrarJustificacion, setMostrarJustificacion] = useState(false);
-const [avanzar, setAvanzar] = useState(false)
 const [reiniciar, setReiniciar] = useState(false)
+const [avanzar, setAvanzar] = useState(false)
 const [puntos, setPuntos] = useState(0);
 
 const preguntaActual = preguntas[preguntaIndex];
@@ -18,6 +20,7 @@ const handleRespuestaClick = (opcion) => {
     setMostrarJustificacion(true);
     if (preguntaActual.respuesta_correcta==opcion){
         setAvanzar(true)
+        setPuntos(puntos+1);
     }
     else {
         setReiniciar(true)
@@ -55,6 +58,12 @@ return (
         <p>Justificación: {preguntaActual.justificacion}</p>
         {avanzar && (
         <button onClick={handleSiguientePregunta}>Siguiente pregunta</button>
+        )}
+        {reiniciar && (
+        <>
+            <p>Tus puntos: {puntos}</p>
+            <Link to="/"><button>Reiniciar</button></Link>
+        </>
         )}
         </div>
     )}

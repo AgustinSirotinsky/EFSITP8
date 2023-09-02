@@ -3,8 +3,8 @@ import './App.css';
 import { useState,useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Home from './assets/Home';
-import Quiz from './assets/Quiz';
+import Home from './components/routes/Home';
+import Quiz from './components/routes/Quiz';
 
 export default function App() {
   return (
