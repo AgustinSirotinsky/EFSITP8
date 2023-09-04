@@ -1,5 +1,9 @@
 .App {
-  background: linear-gradient(47deg, #0F6 0%, #3087D8 52.08%, #0F6 100%);
+  font-style: white;
+}
+
+html {
+  
 }
 
 .App-logo {

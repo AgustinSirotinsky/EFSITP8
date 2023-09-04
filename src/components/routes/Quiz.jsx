@@ -1,6 +1,13 @@
-import React, { useState } from 'react';
-import preguntas from '../preguntas.json'
+//React
 import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+
+//Other
+import preguntas from '../preguntas.json'
+
+//Bootstrap
+import { Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function PreguntasComponent() {
@@ -36,18 +43,18 @@ const handleSiguientePregunta = () => {
 };
 
 return (
-    <div>
+    <div className="Quiz">
     <h1>Pregunta {preguntaIndex + 1}</h1>
     <p>{preguntaActual.pregunta}</p>
     <div>
         {Object.keys(respuestas).map((opcion) => (
-        <button
+        <Button
             key={opcion}
             onClick={() => handleRespuestaClick(opcion)}
             disabled={respuestaElegida !== null}
         >
             {respuestas[opcion]}
-        </button>
+        </Button>
         ))}
     </div>
     {mostrarJustificacion && (
@@ -57,12 +64,12 @@ return (
         </p>
         <p>Justificación: {preguntaActual.justificacion}</p>
         {avanzar && (
-        <button onClick={handleSiguientePregunta}>Siguiente pregunta</button>
+        <Button onClick={handleSiguientePregunta} variant="success">Siguiente pregunta</Button>
         )}
         {reiniciar && (
         <>
             <p>Tus puntos: {puntos}</p>
-            <Link to="/"><button>Reiniciar</button></Link>
+            <Link to="/"><Button variant="danger">Reiniciar</Button></Link>
         </>
         )}
         </div>
