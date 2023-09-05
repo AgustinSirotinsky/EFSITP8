@@ -1,6 +1,6 @@
 //React
 import { Link } from "react-router-dom";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 //Bootstrap
 import { Button } from 'react-bootstrap';
@@ -14,6 +14,15 @@ import '../Quiz.css'
 import preguntas from '../preguntas.json'
 
 function PreguntasComponent() {
+    //Shuffle de array
+// useEffect(() => {
+//     for (let i = preguntas.length - 1; i > 0; i--) {
+//         const j = Math.floor(Math.random() * (i + 1));
+//         [preguntas[i], preguntas[j]] = [preguntas[j], preguntas[i]];
+//     }
+//     console.log(preguntas)
+// },[])
+
 const [preguntaIndex, setPreguntaIndex] = useState(0);
 const [respuestaElegida, setRespuestaElegida] = useState(null);
 const [mostrarJustificacion, setMostrarJustificacion] = useState(false);
@@ -23,8 +32,6 @@ const [puntos, setPuntos] = useState(0);
 
 const preguntaActual = preguntas[preguntaIndex];
 const respuestas = preguntaActual.respuestas;
-
-console.log(preguntas[4])
 
 const handleRespuestaClick = (opcion) => {
     setAvanzar(false)
@@ -50,7 +57,7 @@ const handleSiguientePregunta = () => {
 return (
     <div style={{color:"white"}}>
         <div className="pregunta">
-            <h1>Pregunta {preguntaIndex}</h1>
+            <h1>Pregunta {preguntaIndex+1}</h1>
             <h2>{preguntaActual.pregunta}</h2>
         </div>
     <div className="opciones">

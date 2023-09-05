@@ -63,12 +63,12 @@
     "justificacion": "El riego por goteo proporciona agua directamente a las raíces de las plantas, reduciendo el desperdicio de agua en comparación con el riego diario."
     },
     {
-    "pregunta": "¿Cuál de las siguientes actividades tiene un impacto negativo en los océanos?",
+    "pregunta": "¿Cuál de las siguientes actividades es mejor para los océanos?",
     "respuestas": {
         "1": "Arrojar plásticos al mar",
         "2": "Utilizar productos de limpieza biodegradables"
     },
-    "respuesta_correcta": "1",
+    "respuesta_correcta": "2",
     "justificacion": "Arrojar plásticos al mar causa contaminación marina, pone en peligro la vida marina y contribuye a la formación de islas de basura."
     },
     {
