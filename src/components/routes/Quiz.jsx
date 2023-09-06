@@ -23,7 +23,11 @@ function PreguntasComponent() {
 //     console.log(preguntas)
 // },[])
 
-const [preguntaIndex, setPreguntaIndex] = useState(0);
+const primeraPreg = Math.floor(Math.random() * preguntas.length);
+const [preguntaIndex, setPreguntaIndex] = useState(primeraPreg);
+const [preguntasSalieron, setPreguntasSalieron ] = useState([primeraPreg]);
+
+
 const [respuestaElegida, setRespuestaElegida] = useState(null);
 const [mostrarJustificacion, setMostrarJustificacion] = useState(false);
 const [reiniciar, setReiniciar] = useState(false)
@@ -39,7 +43,6 @@ const handleRespuestaClick = (opcion) => {
     setMostrarJustificacion(true);
     if (preguntaActual.respuesta_correcta==opcion){
         setAvanzar(true)
-        setPuntos(puntos+1);
     }
     else {
         setReiniciar(true)
@@ -47,17 +50,22 @@ const handleRespuestaClick = (opcion) => {
 };
 
 const handleSiguientePregunta = () => {
-    if (preguntaIndex < preguntas.length - 1) {
-    setPreguntaIndex(preguntaIndex + 1);
+    setPuntos(puntos+1);
+    let siguientePregunta = Math.floor(Math.random() * preguntas.length);
+    while (preguntasSalieron.indexOf(siguientePregunta) != -1) {
+        siguientePregunta = Math.floor(Math.random() * preguntas.length);
+    }
+    setPreguntaIndex(siguientePregunta);
+    setPreguntasSalieron([...preguntasSalieron, siguientePregunta])
+
     setRespuestaElegida(null);
     setMostrarJustificacion(false);
-    }
 };
 
 return (
     <div style={{color:"white"}}>
         <div className="pregunta">
-            <h1>Pregunta {preguntaIndex+1}</h1>
+            <h1>Pregunta {puntos+1}</h1>
             <h2>{preguntaActual.pregunta}</h2>
         </div>
     <div className="opciones">
