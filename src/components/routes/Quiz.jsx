@@ -1,6 +1,6 @@
 //React
 import { Link } from "react-router-dom";
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 //Bootstrap
 import { Button } from 'react-bootstrap';
@@ -41,7 +41,7 @@ const handleRespuestaClick = (opcion) => {
     setAvanzar(false)
     setRespuestaElegida(opcion);
     setMostrarJustificacion(true);
-    if (preguntaActual.respuesta_correcta==opcion){
+    if (preguntaActual.respuesta_correcta===opcion){
         setAvanzar(true)
     }
     else {
@@ -52,7 +52,7 @@ const handleRespuestaClick = (opcion) => {
 const handleSiguientePregunta = () => {
     setPuntos(puntos+1);
     let siguientePregunta = Math.floor(Math.random() * preguntas.length);
-    while (preguntasSalieron.indexOf(siguientePregunta) != -1) {
+    while (preguntasSalieron.indexOf(siguientePregunta) !== -1) {
         siguientePregunta = Math.floor(Math.random() * preguntas.length);
     }
     setPreguntaIndex(siguientePregunta);

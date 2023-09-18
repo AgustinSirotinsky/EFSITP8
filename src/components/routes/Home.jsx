@@ -1,6 +1,5 @@
 //React
 import { Link } from "react-router-dom";
-import { useState,useEffect } from 'react';
 
 //Bootstrap
 import { Button } from 'react-bootstrap';
