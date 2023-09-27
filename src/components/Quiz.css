@@ -8,3 +8,16 @@
 .justificacion {
     text-align: center;
 }
+.input{
+    margin-bottom: 1%;
+    width:50%;
+}
+
+.quiz-container{
+    margin: 1rem;
+    background-color: rgb(82, 73, 58);
+    padding: 2rem;
+    border-radius: 25px;
+    border: 2px solid rgb(255, 210, 127);
+    text-decoration: none;
+}

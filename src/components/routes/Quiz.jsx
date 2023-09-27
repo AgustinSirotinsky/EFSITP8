@@ -1,11 +1,11 @@
 //React
 import { Link } from "react-router-dom";
 import React, { useState } from 'react';
-import { HighScoreContext } from "../../context/HighScoreContext";
 
 //Bootstrap
-import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 import Alert from 'react-bootstrap/Alert';
 
 //css
@@ -13,6 +13,7 @@ import '../Quiz.css'
 
 //Other
 import preguntas from '../preguntas.json'
+import { HighScoreContext } from "../../context/HighScoreContext";
 
 function PreguntasComponent() {
 
@@ -56,10 +57,6 @@ const handleRespuestaClick = (opcion) => {
 
 const handleSiguientePregunta = () => {
     setPuntos(puntos+1);
-    if (puntos>highScore){
-        highScore=puntos
-        sethighScore(puntos)
-    }
 
     let siguientePregunta = Math.floor(Math.random() * preguntas.length);
     while (preguntasSalieron.indexOf(siguientePregunta) !== -1) {
@@ -72,8 +69,19 @@ const handleSiguientePregunta = () => {
     setMostrarJustificacion(false);
 };
 
+const [usuario, setusuario] = useState("");
+    const handleUsuarioChange = (e) => {
+        setusuario(e.target.value);
+        console.log(usuario)
+    };
+const submitHighscore = () => {
+    highScore.push(usuario + ': ' + puntos)
+    console.log(highScore)
+}
+
 return (
-    <div style={{color:"white"}}>
+    <main className="quiz-container">
+        <div style={{color:"white"}}>
         <div className="pregunta">
             <h1>Pregunta {puntos+1}</h1>
             <h2>{preguntaActual.pregunta}</h2>
@@ -113,13 +121,17 @@ return (
                     <h5>Tus puntos: {puntos}</h5>
                 <hr />
                 <p className="mb-0">
-                <Link to="/"><Button variant="outline-danger" size="lg">Reiniciar</Button></Link>
+                <Form.Group controlId="formBasicUser" className="input">
+                    <Form.Control type="user" placeholder="Nombre" onChange={handleUsuarioChange} />
+                </Form.Group>
+                <Link to="/"><Button variant="outline-danger" size="lg" onClick={submitHighscore}>Reiniciar</Button></Link>
                 </p>
             </Alert>
         )}
         </div>
     )}
     </div>
+    </main>
 );
 }
 
