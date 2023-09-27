@@ -1,6 +1,7 @@
 //React
 import { Link } from "react-router-dom";
 import React, { useState } from 'react';
+import { HighScoreContext } from "../../context/HighScoreContext";
 
 //Bootstrap
 import { Button } from 'react-bootstrap';
@@ -14,6 +15,7 @@ import '../Quiz.css'
 import preguntas from '../preguntas.json'
 
 function PreguntasComponent() {
+
     //Shuffle de array
 // useEffect(() => {
 //     for (let i = preguntas.length - 1; i > 0; i--) {
@@ -22,6 +24,9 @@ function PreguntasComponent() {
 //     }
 //     console.log(preguntas)
 // },[])
+
+const {highScore} = React.useContext(HighScoreContext);
+const {sethighScore} = React.useContext(HighScoreContext);
 
 const primeraPreg = Math.floor(Math.random() * preguntas.length);
 const [preguntaIndex, setPreguntaIndex] = useState(primeraPreg);
@@ -51,6 +56,10 @@ const handleRespuestaClick = (opcion) => {
 
 const handleSiguientePregunta = () => {
     setPuntos(puntos+1);
+    if (puntos>highScore){
+        highScore=puntos
+    }
+
     let siguientePregunta = Math.floor(Math.random() * preguntas.length);
     while (preguntasSalieron.indexOf(siguientePregunta) !== -1) {
         siguientePregunta = Math.floor(Math.random() * preguntas.length);

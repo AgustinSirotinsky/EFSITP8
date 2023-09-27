@@ -15,8 +15,8 @@ const Layout = () => {
           <Navbar.Brand href="/">
             <img src={casita} width="50" height="50" alt="home"/>
           </Navbar.Brand>
-          <Navbar.Brand href="/highSchore">
-            <img src={highschore} width="75" height="50" alt="highschore"/>
+          <Navbar.Brand href="/HighscoreRoute">
+            <img src={highschore} width="75" height="50" alt="highscore"/>
           </Navbar.Brand>
       </Navbar>
         <Outlet />
