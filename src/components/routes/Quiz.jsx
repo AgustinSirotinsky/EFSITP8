@@ -58,6 +58,7 @@ const handleSiguientePregunta = () => {
     setPuntos(puntos+1);
     if (puntos>highScore){
         highScore=puntos
+        sethighScore(puntos)
     }
 
     let siguientePregunta = Math.floor(Math.random() * preguntas.length);
