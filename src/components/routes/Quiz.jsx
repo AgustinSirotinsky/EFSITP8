@@ -12,7 +12,7 @@ import Alert from 'react-bootstrap/Alert';
 import '../Quiz.css'
 
 //Other
-import preguntas from '../preguntas.json'
+import preguntas from '../preguntas.json';
 import { HighScoreContext } from "../../context/HighScoreContext";
 
 function PreguntasComponent() {
@@ -27,7 +27,7 @@ function PreguntasComponent() {
 // },[])
 
 const {highScore} = React.useContext(HighScoreContext);
-const {sethighScore} = React.useContext(HighScoreContext);
+const {setHighScore} = React.useContext(HighScoreContext);
 
 const primeraPreg = Math.floor(Math.random() * preguntas.length);
 const [preguntaIndex, setPreguntaIndex] = useState(primeraPreg);
@@ -75,7 +75,8 @@ const [usuario, setusuario] = useState("");
         console.log(usuario)
     };
 const submitHighscore = () => {
-    highScore.push(usuario + ': ' + puntos)
+    const newScore = { usuario, puntos };
+    setHighScore(highScore => [...highScore, newScore]);
     console.log(highScore)
 }
 

@@ -10,7 +10,7 @@ import './App.css';
 import Home from './components/routes/Home';
 import Quiz from './components/routes/Quiz';
 import HighscoreRoute from './components/routes/HighscoreRoute';
-import Layout from './components/routes/Layout';
+import Layout from './components/routes/Layout'
 
 export default function App() {
   return (
